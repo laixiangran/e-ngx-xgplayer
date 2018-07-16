@@ -1,6 +1,6 @@
 # e-ngx-xgplayer
 
-基于Angular的西瓜播放器。
+基于Angular的[西瓜播放器](http://h5player.bytedance.com/)。
 
 ## Usage
 
