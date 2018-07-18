@@ -1,4 +1,8 @@
 <div class="app_main">
 	<h1>基于Angular的西瓜播放器</h1>
-	<e-ngx-xgplayer [options]="playerOpts"></e-ngx-xgplayer>
+	<e-ngx-xgplayer [options]="playerOpts"
+					(ready)="ready($event)"
+					(destroy)="destroy($event)"
+					(complete)="complete($event)">
+	</e-ngx-xgplayer>
 </div>
