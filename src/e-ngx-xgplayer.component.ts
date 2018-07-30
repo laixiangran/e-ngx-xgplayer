@@ -1,7 +1,5 @@
 import { Component, ElementRef, EventEmitter, Input, OnDestroy, OnInit, Output, ViewChild } from '@angular/core';
-// import Player from 'xgplayer';
-
-declare let Player: any;
+import * as Player from 'xgplayer';
 
 @Component({
 	selector: 'e-ngx-xgplayer',

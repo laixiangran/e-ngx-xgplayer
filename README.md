@@ -9,16 +9,8 @@
 	```shell
 	npm install --save e-ngx-xgplayer@latest
 	```
-	
-2. Set in the .angular-cli.json（@angular/cli）
 
-	```json
-    "scripts": [
-       "../node_modules/xgplayer/browser/index.js"
-    ]
-	```
-
-3. Add the ENgxXGPlayerModule
+2. Add the ENgxXGPlayerModule
 
 	```typescript
 	import { ENgxXGPlayerModule } from "e-ngx-xgplayer";
